@@ -10,9 +10,17 @@
 		56D780B622DE70CB00633D77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D780B522DE70CB00633D77 /* AppDelegate.swift */; };
 		56D780B822DE70CB00633D77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D780B722DE70CB00633D77 /* ViewController.swift */; };
 		56D780BB22DE70CB00633D77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56D780B922DE70CB00633D77 /* Main.storyboard */; };
-		56D780BE22DE70CB00633D77 /* GrandRoundsTakeHomeAssignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 56D780BC22DE70CB00633D77 /* GrandRoundsTakeHomeAssignment.xcdatamodeld */; };
 		56D780C022DE70D300633D77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56D780BF22DE70D300633D77 /* Assets.xcassets */; };
 		56D780C322DE70D300633D77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56D780C122DE70D300633D77 /* LaunchScreen.storyboard */; };
+		56D780CC22DE72F500633D77 /* ImageViewSubClassAndExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D780CB22DE72F500633D77 /* ImageViewSubClassAndExtensions.swift */; };
+		56D780CF22DE95F400633D77 /* JSONFlikerAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D780CE22DE95F400633D77 /* JSONFlikerAPI.swift */; };
+		56D780D122DE969900633D77 /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D780D022DE969900633D77 /* Photos.swift */; };
+		56D780D322DE977100633D77 /* IndividualPhotoDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D780D222DE977100633D77 /* IndividualPhotoDetail.swift */; };
+		56D780D522DE9A2400633D77 /* FlickerAPIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D780D422DE9A2400633D77 /* FlickerAPIKey.swift */; };
+		56D780D822DE9D7500633D77 /* GrandRoundsTHACollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D780D722DE9D7500633D77 /* GrandRoundsTHACollectionViewCell.swift */; };
+		56D780DB22DE9E4E00633D77 /* GrandRoundsTHAViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D780DA22DE9E4E00633D77 /* GrandRoundsTHAViewModel.swift */; };
+		56D780DD22DEC50100633D77 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D780DC22DEC50100633D77 /* PhotoViewController.swift */; };
+		56D780DF22DED60F00633D77 /* FlikerURLComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D780DE22DED60F00633D77 /* FlikerURLComponents.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +28,18 @@
 		56D780B522DE70CB00633D77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56D780B722DE70CB00633D77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		56D780BA22DE70CB00633D77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		56D780BD22DE70CB00633D77 /* GrandRoundsTakeHomeAssignment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GrandRoundsTakeHomeAssignment.xcdatamodel; sourceTree = "<group>"; };
 		56D780BF22DE70D300633D77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56D780C222DE70D300633D77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		56D780C422DE70D300633D77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56D780CB22DE72F500633D77 /* ImageViewSubClassAndExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewSubClassAndExtensions.swift; sourceTree = "<group>"; };
+		56D780CE22DE95F400633D77 /* JSONFlikerAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONFlikerAPI.swift; sourceTree = "<group>"; };
+		56D780D022DE969900633D77 /* Photos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photos.swift; sourceTree = "<group>"; };
+		56D780D222DE977100633D77 /* IndividualPhotoDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndividualPhotoDetail.swift; sourceTree = "<group>"; };
+		56D780D422DE9A2400633D77 /* FlickerAPIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerAPIKey.swift; sourceTree = "<group>"; };
+		56D780D722DE9D7500633D77 /* GrandRoundsTHACollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrandRoundsTHACollectionViewCell.swift; sourceTree = "<group>"; };
+		56D780DA22DE9E4E00633D77 /* GrandRoundsTHAViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrandRoundsTHAViewModel.swift; sourceTree = "<group>"; };
+		56D780DC22DEC50100633D77 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		56D780DE22DED60F00633D77 /* FlikerURLComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlikerURLComponents.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +72,55 @@
 		56D780B422DE70CB00633D77 /* GrandRoundsTakeHomeAssignment */ = {
 			isa = PBXGroup;
 			children = (
+				56D780D922DE9E0000633D77 /* GrandRoundstakeHomeAssignmentViewModel */,
+				56D780D622DE9D2500633D77 /* GrandRoundsTakeHomeAssignmentView */,
+				56D780CD22DE95B100633D77 /* GrandRoundTakeHomeAssignmentModel */,
+				56D780CA22DE72CB00633D77 /* Extensions */,
 				56D780B522DE70CB00633D77 /* AppDelegate.swift */,
-				56D780B722DE70CB00633D77 /* ViewController.swift */,
 				56D780B922DE70CB00633D77 /* Main.storyboard */,
 				56D780BF22DE70D300633D77 /* Assets.xcassets */,
 				56D780C122DE70D300633D77 /* LaunchScreen.storyboard */,
 				56D780C422DE70D300633D77 /* Info.plist */,
-				56D780BC22DE70CB00633D77 /* GrandRoundsTakeHomeAssignment.xcdatamodeld */,
 			);
 			path = GrandRoundsTakeHomeAssignment;
+			sourceTree = "<group>";
+		};
+		56D780CA22DE72CB00633D77 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				56D780CB22DE72F500633D77 /* ImageViewSubClassAndExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		56D780CD22DE95B100633D77 /* GrandRoundTakeHomeAssignmentModel */ = {
+			isa = PBXGroup;
+			children = (
+				56D780CE22DE95F400633D77 /* JSONFlikerAPI.swift */,
+				56D780D022DE969900633D77 /* Photos.swift */,
+				56D780D222DE977100633D77 /* IndividualPhotoDetail.swift */,
+				56D780D422DE9A2400633D77 /* FlickerAPIKey.swift */,
+				56D780DE22DED60F00633D77 /* FlikerURLComponents.swift */,
+			);
+			path = GrandRoundTakeHomeAssignmentModel;
+			sourceTree = "<group>";
+		};
+		56D780D622DE9D2500633D77 /* GrandRoundsTakeHomeAssignmentView */ = {
+			isa = PBXGroup;
+			children = (
+				56D780B722DE70CB00633D77 /* ViewController.swift */,
+				56D780D722DE9D7500633D77 /* GrandRoundsTHACollectionViewCell.swift */,
+				56D780DC22DEC50100633D77 /* PhotoViewController.swift */,
+			);
+			path = GrandRoundsTakeHomeAssignmentView;
+			sourceTree = "<group>";
+		};
+		56D780D922DE9E0000633D77 /* GrandRoundstakeHomeAssignmentViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				56D780DA22DE9E4E00633D77 /* GrandRoundsTHAViewModel.swift */,
+			);
+			path = GrandRoundstakeHomeAssignmentViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +194,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56D780D122DE969900633D77 /* Photos.swift in Sources */,
+				56D780D822DE9D7500633D77 /* GrandRoundsTHACollectionViewCell.swift in Sources */,
+				56D780D522DE9A2400633D77 /* FlickerAPIKey.swift in Sources */,
+				56D780CC22DE72F500633D77 /* ImageViewSubClassAndExtensions.swift in Sources */,
+				56D780CF22DE95F400633D77 /* JSONFlikerAPI.swift in Sources */,
 				56D780B822DE70CB00633D77 /* ViewController.swift in Sources */,
-				56D780BE22DE70CB00633D77 /* GrandRoundsTakeHomeAssignment.xcdatamodeld in Sources */,
+				56D780DF22DED60F00633D77 /* FlikerURLComponents.swift in Sources */,
+				56D780DB22DE9E4E00633D77 /* GrandRoundsTHAViewModel.swift in Sources */,
 				56D780B622DE70CB00633D77 /* AppDelegate.swift in Sources */,
+				56D780D322DE977100633D77 /* IndividualPhotoDetail.swift in Sources */,
+				56D780DD22DEC50100633D77 /* PhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,19 +404,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		56D780BC22DE70CB00633D77 /* GrandRoundsTakeHomeAssignment.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				56D780BD22DE70CB00633D77 /* GrandRoundsTakeHomeAssignment.xcdatamodel */,
-			);
-			currentVersion = 56D780BD22DE70CB00633D77 /* GrandRoundsTakeHomeAssignment.xcdatamodel */;
-			path = GrandRoundsTakeHomeAssignment.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 56D780AA22DE70CA00633D77 /* Project object */;
 }
