@@ -20,7 +20,6 @@
 		56D780D822DE9D7500633D77 /* GrandRoundsTHACollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D780D722DE9D7500633D77 /* GrandRoundsTHACollectionViewCell.swift */; };
 		56D780DB22DE9E4E00633D77 /* GrandRoundsTHAViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D780DA22DE9E4E00633D77 /* GrandRoundsTHAViewModel.swift */; };
 		56D780DD22DEC50100633D77 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D780DC22DEC50100633D77 /* PhotoViewController.swift */; };
-		56D780DF22DED60F00633D77 /* FlikerURLComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D780DE22DED60F00633D77 /* FlikerURLComponents.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,7 +38,6 @@
 		56D780D722DE9D7500633D77 /* GrandRoundsTHACollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrandRoundsTHACollectionViewCell.swift; sourceTree = "<group>"; };
 		56D780DA22DE9E4E00633D77 /* GrandRoundsTHAViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrandRoundsTHAViewModel.swift; sourceTree = "<group>"; };
 		56D780DC22DEC50100633D77 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
-		56D780DE22DED60F00633D77 /* FlikerURLComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlikerURLComponents.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +97,6 @@
 				56D780D022DE969900633D77 /* Photos.swift */,
 				56D780D222DE977100633D77 /* IndividualPhotoDetail.swift */,
 				56D780D422DE9A2400633D77 /* FlickerAPIKey.swift */,
-				56D780DE22DED60F00633D77 /* FlikerURLComponents.swift */,
 			);
 			path = GrandRoundTakeHomeAssignmentModel;
 			sourceTree = "<group>";
@@ -200,7 +197,6 @@
 				56D780CC22DE72F500633D77 /* ImageViewSubClassAndExtensions.swift in Sources */,
 				56D780CF22DE95F400633D77 /* JSONFlikerAPI.swift in Sources */,
 				56D780B822DE70CB00633D77 /* SearchViewController.swift in Sources */,
-				56D780DF22DED60F00633D77 /* FlikerURLComponents.swift in Sources */,
 				56D780DB22DE9E4E00633D77 /* GrandRoundsTHAViewModel.swift in Sources */,
 				56D780B622DE70CB00633D77 /* AppDelegate.swift in Sources */,
 				56D780D322DE977100633D77 /* IndividualPhotoDetail.swift in Sources */,
