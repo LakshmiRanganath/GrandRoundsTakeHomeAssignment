@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		56D780B622DE70CB00633D77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D780B522DE70CB00633D77 /* AppDelegate.swift */; };
-		56D780B822DE70CB00633D77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D780B722DE70CB00633D77 /* ViewController.swift */; };
+		56D780B822DE70CB00633D77 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D780B722DE70CB00633D77 /* SearchViewController.swift */; };
 		56D780BB22DE70CB00633D77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56D780B922DE70CB00633D77 /* Main.storyboard */; };
 		56D780C022DE70D300633D77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56D780BF22DE70D300633D77 /* Assets.xcassets */; };
 		56D780C322DE70D300633D77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56D780C122DE70D300633D77 /* LaunchScreen.storyboard */; };
@@ -26,7 +26,7 @@
 /* Begin PBXFileReference section */
 		56D780B222DE70CB00633D77 /* GrandRoundsTakeHomeAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrandRoundsTakeHomeAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56D780B522DE70CB00633D77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		56D780B722DE70CB00633D77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		56D780B722DE70CB00633D77 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		56D780BA22DE70CB00633D77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		56D780BF22DE70D300633D77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56D780C222DE70D300633D77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -77,7 +77,6 @@
 				56D780CD22DE95B100633D77 /* GrandRoundTakeHomeAssignmentModel */,
 				56D780CA22DE72CB00633D77 /* Extensions */,
 				56D780B522DE70CB00633D77 /* AppDelegate.swift */,
-				56D780B922DE70CB00633D77 /* Main.storyboard */,
 				56D780BF22DE70D300633D77 /* Assets.xcassets */,
 				56D780C122DE70D300633D77 /* LaunchScreen.storyboard */,
 				56D780C422DE70D300633D77 /* Info.plist */,
@@ -108,7 +107,8 @@
 		56D780D622DE9D2500633D77 /* GrandRoundsTakeHomeAssignmentView */ = {
 			isa = PBXGroup;
 			children = (
-				56D780B722DE70CB00633D77 /* ViewController.swift */,
+				56D780B922DE70CB00633D77 /* Main.storyboard */,
+				56D780B722DE70CB00633D77 /* SearchViewController.swift */,
 				56D780D722DE9D7500633D77 /* GrandRoundsTHACollectionViewCell.swift */,
 				56D780DC22DEC50100633D77 /* PhotoViewController.swift */,
 			);
@@ -199,7 +199,7 @@
 				56D780D522DE9A2400633D77 /* FlickerAPIKey.swift in Sources */,
 				56D780CC22DE72F500633D77 /* ImageViewSubClassAndExtensions.swift in Sources */,
 				56D780CF22DE95F400633D77 /* JSONFlikerAPI.swift in Sources */,
-				56D780B822DE70CB00633D77 /* ViewController.swift in Sources */,
+				56D780B822DE70CB00633D77 /* SearchViewController.swift in Sources */,
 				56D780DF22DED60F00633D77 /* FlikerURLComponents.swift in Sources */,
 				56D780DB22DE9E4E00633D77 /* GrandRoundsTHAViewModel.swift in Sources */,
 				56D780B622DE70CB00633D77 /* AppDelegate.swift in Sources */,
