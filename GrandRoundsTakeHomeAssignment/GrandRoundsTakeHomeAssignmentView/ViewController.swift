@@ -10,7 +10,6 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var imageSearchResultsArray = [IndividualPhotoDetail]()
     var searchString = ""
     var grandRoundsTHAViewModel = GrandRoundsTHAViewModel()
     var pageCount = 1
@@ -57,7 +56,7 @@ class ViewController: UIViewController {
                 
             case .success(let arrayFetched) :
                 //if data is fetched succefully, collectionView  is reloaded
-                self.imageSearchResultsArray.append(contentsOf: arrayFetched)
+                self.grandRoundsTHAViewModel.imageSearchResultsArray.append(contentsOf: arrayFetched)
                 DispatchQueue.main.async { [weak self] in
                     self?.activityIndicator.isHidden = false
                     self?.welcomeToSearchLabel.isHidden = true
@@ -77,16 +76,16 @@ class ViewController: UIViewController {
 //MARK: - CollectionViewDataSourceMethods
 extension ViewController : UICollectionViewDataSource{
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return imageSearchResultsArray.count
+        return grandRoundsTHAViewModel.imageSearchResultsArray.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell : GrandRoundsTHACollectionViewCell = collectionView.dequeueReusableCell(withReuseIdentifier: "grandRoundsTHACollectionViewCell", for: indexPath) as! GrandRoundsTHACollectionViewCell
-        let imageDetail = imageSearchResultsArray[indexPath.row]
+        let imageDetail = grandRoundsTHAViewModel.imageSearchResultsArray[indexPath.row]
         let imageURLString = "https://farm\(String(imageDetail.farm)).staticflickr.com/\(imageDetail.server)/\(imageDetail.id)_\(imageDetail.secret).jpg"
         cell.searchImageUrlString = imageURLString
         cell.searchImageView.loadImageViewWithUrlString(urlString: imageURLString)
-        if indexPath.row == imageSearchResultsArray.count - 1{
+        if indexPath.row == grandRoundsTHAViewModel.imageSearchResultsArray.count - 1{
             //used to scroll to last loaded cell when collectionview is reloaded, after pagination
             self.indexPathOfLastDisplayedCell = indexPath
         }
@@ -99,7 +98,7 @@ extension ViewController : UICollectionViewDataSource{
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let photoDisplayVC = storyboard.instantiateViewController(withIdentifier: "SearchImageDisplayViewController") as! PhotoViewController
         
-        let imageDetail = imageSearchResultsArray[indexPath.row]
+        let imageDetail = grandRoundsTHAViewModel.imageSearchResultsArray[indexPath.row]
         let imageURLString = "https://farm\(String(imageDetail.farm)).staticflickr.com/\(imageDetail.server)/\(imageDetail.id)_\(imageDetail.secret).jpg"
         DispatchQueue.main.async {
             //IBOutlets were getting nil as view was not loaded

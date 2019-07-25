@@ -9,6 +9,8 @@
 import Foundation
 
 class GrandRoundsTHAViewModel : NSObject{
+    
+    var imageSearchResultsArray = [IndividualPhotoDetail]()
 
     func fetchImagesForSearchString(searchString : String, pageCount : Int, completion : @escaping(Result<[IndividualPhotoDetail], Error>) -> ()){
         
