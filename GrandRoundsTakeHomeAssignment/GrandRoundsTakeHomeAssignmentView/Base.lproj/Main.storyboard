@@ -35,7 +35,7 @@
                                 <rect key="frame" x="197" y="438" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </activityIndicatorView>
-                            <collectionView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Aat-9v-rXq">
+                            <collectionView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Aat-9v-rXq">
                                 <rect key="frame" x="10" y="204" width="394" height="574"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="9Lb-en-Tau">
@@ -74,7 +74,7 @@
                                 </connections>
                             </collectionView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kYU-mg-WFR">
-                                <rect key="frame" x="281" y="808" width="83" height="34"/>
+                                <rect key="frame" x="311" y="808" width="83" height="34"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="20"/>
                                 <state key="normal" title="Load more">
                                     <color key="titleColor" red="0.58072251080000004" green="0.066734083" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -87,17 +87,17 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="kYU-mg-WFR" secondAttribute="bottom" constant="20" id="466-iI-cDz"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="kYU-mg-WFR" secondAttribute="trailing" id="92P-td-eHC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kYU-mg-WFR" secondAttribute="trailing" constant="20" id="92P-td-eHC"/>
                             <constraint firstItem="Aat-9v-rXq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="E4Q-Hp-2Tb"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Aat-9v-rXq" secondAttribute="trailing" constant="10" id="E5o-Rd-HnJ"/>
                             <constraint firstItem="Fak-qA-Gc5" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="GTf-P8-ytS"/>
                             <constraint firstItem="Aat-9v-rXq" firstAttribute="top" secondItem="xwg-Fy-wZ0" secondAttribute="bottom" constant="30" id="I5f-AJ-Duj"/>
-                            <constraint firstItem="kYU-mg-WFR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="281" id="OV1-1T-7Hc"/>
                             <constraint firstItem="xwg-Fy-wZ0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="PB9-X3-gyj"/>
                             <constraint firstItem="Fak-qA-Gc5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="QgO-mb-70c"/>
                             <constraint firstItem="xwg-Fy-wZ0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="QnU-F8-eC6"/>
                             <constraint firstItem="xwg-Fy-wZ0" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="hLA-h5-zMc"/>
                             <constraint firstItem="kYU-mg-WFR" firstAttribute="top" secondItem="Aat-9v-rXq" secondAttribute="bottom" constant="30" id="jwm-ag-luZ"/>
+                            <constraint firstItem="kYU-mg-WFR" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" symbolic="YES" id="vn0-Iy-cSm"/>
                             <constraint firstItem="Fak-qA-Gc5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zoc-Rb-hMA"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>

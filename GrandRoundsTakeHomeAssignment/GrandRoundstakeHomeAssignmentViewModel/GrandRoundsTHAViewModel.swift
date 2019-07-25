@@ -24,7 +24,7 @@ class GrandRoundsTHAViewModel : NSObject{
             URLQueryItem(name: "api_key", value: FlickerAPIKey().flickerAPIKey),
             URLQueryItem(name: "text", value: searchString),
             URLQueryItem(name: "format", value: "json"),
-            URLQueryItem(name: "per_page", value: "10"),
+            URLQueryItem(name: "per_page", value: "9"),
             URLQueryItem(name: "page", value: String(pageCount)),
             URLQueryItem(name: "nojsoncallback", value: "1")
         ]

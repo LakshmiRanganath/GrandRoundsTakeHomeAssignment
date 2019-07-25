@@ -117,10 +117,7 @@ extension ViewController : UICollectionViewDelegateFlowLayout {
     }
     
 }
-extension ViewController : UICollectionViewDelegate{
-    
-    
-}
+
 extension ViewController : UISearchBarDelegate{
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
         imageSearchBar.resignFirstResponder()

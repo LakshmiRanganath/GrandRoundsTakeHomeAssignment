@@ -10,8 +10,6 @@ import Foundation
 import  UIKit
 
 class GrandRoundsTHACollectionViewCell : UICollectionViewCell{
-    
-    //@IBOutlet weak var searchImageTitleLabel: UILabel!
     @IBOutlet weak var searchImageView: CacheImageView!
     var searchImageUrlString = String()
 }
